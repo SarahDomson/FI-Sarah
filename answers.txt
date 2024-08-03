@@ -1,0 +1,83 @@
+1. b whoami
+
+2. c man
+
+3. b File permissions
+
+4. b ls
+
+5. d Current directory
+
+6. d Changes to /a/b directory
+
+7. a git add
+
+8. d Repository metadata and version history
+
+9. c The currently checked-out commit
+
+10. a Copy file to file2
+
+11. d Lists the contents of a directory
+
+
+Theory Part
+
+1. Git is a distributed version control system that tracks changes in source code
+ during software development. It allows multiple developers to work on a project 
+ simultaneously, manage different versions of files, and collaborate efficiently. 
+ Its importance lies in its ability to track project history, manage branches, 
+ and facilitate collaboration.
+
+2. Steps to Create and Push a Frontend/Backend Repository to GitHub
+
+1. Install Git.
+   Make sure git is installed on your system, on either windows or ios. 
+   Visit official Git website, run the downloaded installer and follow the instructions to setup. 
+
+2. Set up Git.
+   Open your terminal or command prompt
+   Configure your Git with your username and email: 
+   git config --global user.name "Your Name"
+   git config --global user.email "your-email@example.com"
+
+3. Create Project Directory:
+   Open a terminal or command prompt.
+   Navigate to the directory to create a project (cd/path to project)
+   mkdir (project name)
+   cd (project)
+ 
+4. Initialize Git Repository
+   Type: git innit
+
+5. Create a project file 
+   It could be html/css/js file or a txt file
+   echo > (file name)
+
+
+6. Add Files to Staging:
+   Run: git add . (This adds all files in the directory to the staging area.)
+
+7. Commit Changes:
+   Run: git commit -m "Initial commit" (This commits the staged changes with a message.)
+
+
+8. Go to github.com, create an account.
+
+9. Click on the "+" icon at the top right and select "New repository".
+   Enter a repository name (e.g., insulation-numbers).
+   Choose the repository to be public or private.
+   Click "Create repository".
+   You will get a URL like https://github.com/username/repo.git.
+
+10. Add GitHub Repository as Remote:
+    Run: git remote add origin https://github.com/username/repo.git
+    Replace with your actual GitHub repository URL.
+
+11. Push Changes to GitHub:
+    Run: git push -u origin master or main
+    NOTE: make sure to check the branch you are in first.
+    This pushes your local commits to the remote repository on GitHub.
+
+12. Verify Push:
+    Go to your GitHub repository in a web browser to verify that your files are there.
